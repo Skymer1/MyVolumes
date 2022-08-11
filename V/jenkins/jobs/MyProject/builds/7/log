@@ -1,0 +1,89 @@
+Started by user [8mha:////4B57IcZ/GzLV+Jj7gh2Ds8qUlOVedUmVwcljS/3ku2F+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mAdir D
+Running as SYSTEM
+Building remotely on [8mha:////4D2PhdHQrGdfbyZD5r7cer4EYAgXhMp3dxmCbzDWsuT+AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQi/dRkIwAwrMyVwgAAAA==[0mec2 in workspace /home/ubuntu/jenkins/workspace/MyProject
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: git
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Skymer1/my-project.git
+ > git init /home/ubuntu/jenkins/workspace/MyProject # timeout=10
+Fetching upstream changes from https://github.com/Skymer1/my-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Skymer1/my-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Skymer1/my-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1336693ad4ee9038236e0b61b973d11d779b08b8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1336693ad4ee9038236e0b61b973d11d779b08b8 # timeout=10
+Commit message: "Updated Jenkinsfile"
+ > git rev-list --no-walk 1336693ad4ee9038236e0b61b973d11d779b08b8 # timeout=10
+[MyProject] $ /bin/sh -xe /tmp/jenkins7108563644016702641.sh
++ docker login --username AWS --password-stdin 233896446314.dkr.ecr.eu-central-1.amazonaws.com
++ aws ecr get-login-password --region eu-central-1
+WARNING! Your password will be stored unencrypted in /home/ubuntu/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker build -t myproject:7 flaskapp/
+Sending build context to Docker daemon  15.87kB
+Step 1/6 : FROM python:3.10
+ ---> ae9660359c2a
+Step 2/6 : RUN pip install flask
+ ---> Using cache
+ ---> 543f5d244845
+Step 3/6 : WORKDIR /flaskapp
+ ---> Using cache
+ ---> ef2d3b5e6c2f
+Step 4/6 : ADD app.py .
+ ---> Using cache
+ ---> 00925c19ac2b
+Step 5/6 : ENV FLASK_ENV=development
+ ---> Using cache
+ ---> 985250298976
+Step 6/6 : CMD python3 app.py
+ ---> Using cache
+ ---> 65c9718a4767
+Successfully built 65c9718a4767
+Successfully tagged myproject:7
++ docker tag myproject:7 233896446314.dkr.ecr.eu-central-1.amazonaws.com/myproject:7
++ docker push 233896446314.dkr.ecr.eu-central-1.amazonaws.com/myproject:7
+The push refers to repository [233896446314.dkr.ecr.eu-central-1.amazonaws.com/myproject]
+3d8e46d06349: Preparing
+c3e3f20006c8: Preparing
+8f77feeaff57: Preparing
+4774404eb2a2: Preparing
+e6d24c64fbaa: Preparing
+97ee99dde19f: Preparing
+2143381c9922: Preparing
+12228ba7a3b1: Preparing
+9b55156abf26: Preparing
+293d5db30c9f: Preparing
+03127cdb479b: Preparing
+9c742cd6c7a5: Preparing
+2143381c9922: Waiting
+12228ba7a3b1: Waiting
+9b55156abf26: Waiting
+293d5db30c9f: Waiting
+03127cdb479b: Waiting
+9c742cd6c7a5: Waiting
+97ee99dde19f: Waiting
+3d8e46d06349: Layer already exists
+8f77feeaff57: Layer already exists
+c3e3f20006c8: Layer already exists
+e6d24c64fbaa: Layer already exists
+4774404eb2a2: Layer already exists
+97ee99dde19f: Layer already exists
+2143381c9922: Layer already exists
+12228ba7a3b1: Layer already exists
+293d5db30c9f: Layer already exists
+9b55156abf26: Layer already exists
+03127cdb479b: Layer already exists
+9c742cd6c7a5: Layer already exists
+7: digest: sha256:1fbcc0edfa13403a05c367210c366445366a556fcf7a7212df2d9a624c6b10fd size: 2842
+Finished: SUCCESS

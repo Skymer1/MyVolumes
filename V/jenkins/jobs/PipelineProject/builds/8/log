@@ -1,0 +1,107 @@
+Started by user [8mha:////4B57IcZ/GzLV+Jj7gh2Ds8qUlOVedUmVwcljS/3ku2F+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mAdir D
+Obtained flaskapp/Jenkinsfile from git https://github.com/Skymer1/my-project.git
+[8mha:////4MLMaTpMtaPbOPnLXqTGeOqj31l3yux7foIfwwj3Z9q7AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4CJBZs+2t+Pn7iFDAYyQurk1hWKnmr9qpJvuiHc+v7+DAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4H5VKCipG6vO/kgohubH4SotFpyW4PWf0igm+s9FPIkhAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgY+/eT83ILSktQi/dRkI30ArUTiTsMAAAA=[0mec2 in /home/ubuntu/jenkins/workspace/PipelineProject
+[8mha:////4LNVE68CdehnsZnU/PJa8j8c82WRom1yoyYdbBPMW9TEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4DaBNqqqFJ6vDaOpgBsoD0EDIaw1DBwCvHydKHWPMjS5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4L1Sz7RMcPFN3lM+17g4NKsM5RROAwOI213ZtBpq7FB1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Pe2SAMbIV+KwwIb5tgDYjf5GO+ko1IF4Zvna024Q+p+AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/ubuntu/jenkins/workspace/PipelineProject/.git # timeout=10
+ > git config remote.origin.url https://github.com/Skymer1/my-project.git # timeout=10
+Fetching upstream changes from https://github.com/Skymer1/my-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Skymer1/my-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision db973e160cf975861973a761715a2a4ce78f8da9 (refs/remotes/origin/master)
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f db973e160cf975861973a761715a2a4ce78f8da9 # timeout=10
+Commit message: "Upade Jenkinsfile"
+ > git rev-list --no-walk 1336693ad4ee9038236e0b61b973d11d779b08b8 # timeout=10
+[8mha:////4DfKi03PfsiyXgm0OQ+MQz+OFB0yti+1od1LooR/npHSAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4CA8Hw/99iyZMkD2ujI4IjknTd8D/0kGXsoRhVHQ5CZMAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4FdX3WlxrV9rUEiTFAQ33u2CHmuOLfEdc8iKgojPRWUNAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4Odo+FS3Obdi9DfW6od0k7qe4V3uPOAsJ+J7ojPmq4CBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4J4qWYE19MJJbPxNei6tV4p7UWFJeddokSMK8Ii9/AOPAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4IQ+8N62Hz4ol1ZTs80sgHWOpyFZhm/BTo7By/osJ8DkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Build)
+[8mha:////4AbaNr4ZXdNh4zt6RfFKFinsckPj6c10/LBTDPmS3v/AAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ docker build -t skymer:8 flaskapp/
+Sending build context to Docker daemon  15.87kB
+Step 1/6 : FROM python:3.10
+ ---> ae9660359c2a
+Step 2/6 : RUN pip install flask
+ ---> Using cache
+ ---> 543f5d244845
+Step 3/6 : WORKDIR /flaskapp
+ ---> Using cache
+ ---> ef2d3b5e6c2f
+Step 4/6 : ADD app.py .
+ ---> Using cache
+ ---> 00925c19ac2b
+Step 5/6 : ENV FLASK_ENV=development
+ ---> Using cache
+ ---> 985250298976
+Step 6/6 : CMD python3 app.py
+ ---> Using cache
+ ---> 65c9718a4767
+Successfully built 65c9718a4767
+Successfully tagged skymer:8
+[8mha:////4A8LDax3CSsVqa9ONUPP6pzt5Ckcz51+KDDExbUQVAF8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4M8VDKUFlhpWQ12gLkN+XkPbNa7CIbybIFoIXYOhmGfOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4MvYeq5pw/GZ7oILFMAvj4rpYaKiPiW1MwoBacZQ1f1iAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4MSsXQMdeMyjX9yKrSOE/6CxiFs71Pabxh3Ocq1A1KMTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Push)
+[8mha:////4BBuqXkMWF4ynopkWAR94GWjIPJHz1leQV7f4aA3KU6SAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ aws ecr get-login-password --region eu-central-1
++ docker login --username AWS --password-stdin 233896446314.dkr.ecr.eu-central-1.amazonaws.com
+WARNING! Your password will be stored unencrypted in /home/ubuntu/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker tag skymer:8 233896446314.dkr.ecr.eu-central-1.amazonaws.com/myproject:8
++ docker push 233896446314.dkr.ecr.eu-central-1.amazonaws.com/myproject:8
+The push refers to repository [233896446314.dkr.ecr.eu-central-1.amazonaws.com/myproject]
+3d8e46d06349: Preparing
+c3e3f20006c8: Preparing
+8f77feeaff57: Preparing
+4774404eb2a2: Preparing
+e6d24c64fbaa: Preparing
+97ee99dde19f: Preparing
+2143381c9922: Preparing
+12228ba7a3b1: Preparing
+9b55156abf26: Preparing
+293d5db30c9f: Preparing
+03127cdb479b: Preparing
+9c742cd6c7a5: Preparing
+97ee99dde19f: Waiting
+2143381c9922: Waiting
+12228ba7a3b1: Waiting
+9b55156abf26: Waiting
+293d5db30c9f: Waiting
+03127cdb479b: Waiting
+9c742cd6c7a5: Waiting
+c3e3f20006c8: Layer already exists
+8f77feeaff57: Layer already exists
+3d8e46d06349: Layer already exists
+4774404eb2a2: Layer already exists
+e6d24c64fbaa: Layer already exists
+97ee99dde19f: Layer already exists
+12228ba7a3b1: Layer already exists
+9c742cd6c7a5: Layer already exists
+03127cdb479b: Layer already exists
+9b55156abf26: Layer already exists
+2143381c9922: Layer already exists
+293d5db30c9f: Layer already exists
+8: digest: sha256:1fbcc0edfa13403a05c367210c366445366a556fcf7a7212df2d9a624c6b10fd size: 2842
+[8mha:////4Dd9MnWBirA4eIyVpmkeEKb4pHYDZph3q5TCfgEDgPNMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4KISV31B9NswzU0NrsQwN/CSiWQbvAQ+u0xKv7EF9anHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IfBVzN1p36JItrGLnzsT0l/XeZFXyznSQN5oXhDoH/jAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZNrrr+ALkszR2+AAAA[0m[Pipeline] }
+[8mha:////4Nf3CbCt6HIO5C0uC5GFxmzqUm9mjbzuzGOCKn9Hs2n6AAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP4rPlqG+AAAA[0m[Pipeline] // withEnv
+[8mha:////4CnKaaTQHeEO8PmBCjI077gOYSVnMxjUBMWN1JlyEYnAAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA6/9Rob0AAAA=[0m[Pipeline] }
+[8mha:////4Fuhu+TaMvqIAPkmGg6f9md77iDYD7ge2+h8TwBDy7PFAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+ENVAr0AAAA=[0m[Pipeline] // node
+[8mha:////4OQZfYcxfqJHQo3Qbgwmnq+HUSrvXNq6U+KSUOrzvTk9AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHvgnyMr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
